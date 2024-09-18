@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Ecommerce Website</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+
+    <link rel="stylesheet" href="/css/cart.css">
+    <!-------------------------Font Awesome Icons --------------->
+    <script src="https://kit.fontawesome.com/dad03e859c.js" crossorigin="anonymous"></script>
+    <!----------x---------------Font Awesome Icons --------x------->
+
+    <!----------x---------------Google font --------x------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alkatra&family=Berkshire+Swash&family=Comic+Neue:wght@700&family=Gentium+Book+Plus:wght@400;700&family=Lato:ital,wght@0,400;0,700;0,900;1,700&family=Lexend+Deca:wght@500&family=Lexend:wght@500&family=Montserrat:wght@500&family=Open+Sans:wght@500;800&family=Roboto:wght@100;400&family=Sue+Ellen+Francisco&family=Work+Sans:wght@400;700;900&display=swap"
+        rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900;&display:swap">
+    <!----------x---------------Google font --------x----------------->
+
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"><img src="https://i.postimg.cc/x8ncvFjr/logo.png"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html" href="https://codepen.io/Motun/full/OJBwbrQ"
+                        onclick="window.location.href='https://codepen.io/Motun/full/OJBwbrQ'">Home</a></li>
+                <li><a href="#" class="active">Shop</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="/component/cart.html" id="lg-bag"><i class="fal fa-shopping-bag"></i></a></li>
+                <li><a href="#" id="close"><i class="far fa-times"></i></a></li>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="/component/cart.html"><i class="fal fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+
+    <!-- Cart Section -->
+    <section id="cart" class="section-p1">
+        <h1>Your Shopping Cart</h1>
+
+        <div class="cart-container">
+            <!-- Cart Items -->
+            <div class="cart-items">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Subtotal</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cart-items-list">
+                        <!-- Cart items will be dynamically added here -->
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Cart Summary -->
+            <div class="cart-summary">
+                <h3>Cart Summary</h3>
+                <table>
+                    <tr>
+                        <td>Subtotal:</td>
+                        <td id="cart-subtotal">$0.00</td>
+                    </tr>
+                    <tr>
+                        <td>Tax (10%):</td>
+                        <td id="cart-tax">$0.00</td>
+                    </tr>
+                    <tr>
+                        <td>Total:</td>
+                        <td id="cart-total">$0.00</td>
+                    </tr>
+                </table>
+                <button id="checkout-btn">Proceed to Checkout</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <p>Summer Collection New Modern Design</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="https://i.postimg.cc/hG1hqqK6/n1.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Pale Blue Tshirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href=""><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="https://i.postimg.cc/BZkSkvxt/n2.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Plain Grey Tshirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href=""><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="https://i.postimg.cc/KYjcC3sk/n3.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Plain White Tshirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href=""><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="https://i.postimg.cc/908J8S4q/n5.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Blue Jean T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href=""><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <section id="newsletter" class="section-p1">
+        <div class="newstext">
+            <h4>Sign Up for Newsletters</h4>
+            <p>Get Email updates about our latest shop and <span> special offers.</span> </p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="btn normal">Sign Up</button>
+        </div>
+
+        </div>
+
+    </section>
+
+    <footer class="section-p1">
+
+        <div class="col">
+            <a href="#"><img class="logo" src="https://i.postimg.cc/x8ncvFjr/logo.png"></a>
+            <h4>Contact</h4>
+            <p><strong>Address:<strong>349, Olorilogbon street, Onigbogbo Lagos</p>
+            <p><strong>Phone:</strong>+23456876199, +23458903120</p>
+            <p><strong>Hours:</strong>10.00 - 18.00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="sec">
+            <div class="col">
+                <h4>About</h4>
+                <a href="#">About Us</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms and Condition</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+            <div class="col">
+                <h4>My Account</h4>
+                <a href="#">Sign In</a>
+                <a href="#">View Cart</a>
+                <a href="#">My Account</a>
+                <a href="#">My Wishlist</a>
+                <a href="#">Track my Order</a>
+                <a href="#">Help</a>
+
+            </div>
+
+            <div class="col install">
+                <h4>Install App</h4>
+                <p>From App Store or Google Play</p>
+
+                <div class="row">
+                    <img src="https://i.postimg.cc/Y2s5mLdR/app.jpg" alt="">
+                    <img src="https://i.postimg.cc/7YvyWTS6/play.jpg" alt="">
+                </div>
+                <p>Secured Payment Gateways</p>
+                <img src="https://i.postimg.cc/kgfzqVRW/pay.png" alt="">
+            </div>
+        </div>
+
+        <div class="coypright">
+            <p> © 2023 All rights reserved! made by Suva </p>
+        </div>
+
+    </footer>
+</body>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<script>
+    // Retrieve cart items from localStorage
+    let cartItems = localStorage.getItem('cartItems');
+    cartItems = cartItems ? JSON.parse(cartItems) : [];
+
+    // Elements for displaying cart and summary
+    const cartItemsContainer = document.getElementById('cart-items-list'); // Cart items list in cart.html
+    const cartSubtotal = document.getElementById('cart-subtotal');
+    const cartTax = document.getElementById('cart-tax');
+    const cartTotal = document.getElementById('cart-total');
+
+    // Render cart items dynamically
+    function renderCartItems() {
+        cartItemsContainer.innerHTML = ''; // Clear current items
+
+        if (cartItems.length === 0) {
+            cartItemsContainer.innerHTML = '<tr><td colspan="4">Your Cart is empty.</td></tr>';
+            return;
+        }
+
+        cartItems.forEach((item, index) => {
+            const cartRow = document.createElement('tr');
+            cartRow.innerHTML = `
+            <td><img src="${item.img}" alt="${item.name}" style="width: 50px;"/> ${item.name}</td>
+            <td>$${item.price.toFixed(2)}</td>
+            <td>
+                <button class="quantity-btn" onclick="changeQuantity(${index}, -1)">-</button>
+                ${item.quantity}
+                <button class="quantity-btn" onclick="changeQuantity(${index}, 1)">+</button>
+            </td>
+            <td>$${(item.price * item.quantity).toFixed(2)}</td>
+            <td><button class="remove-item" onclick="removeItemFromCart(${index})">Remove</button></td>
+        `;
+            cartItemsContainer.appendChild(cartRow);
+        });
+
+        updateCartSummary();
+    }
+
+    // Update cart summary: subtotal, tax, and total
+    function updateCartSummary() {
+        let subtotal = 0;
+        cartItems.forEach(item => {
+            subtotal += item.price * item.quantity;
+        });
+
+        const tax = subtotal * 0.10; // Assuming 10% tax
+        const total = subtotal + tax;
+
+        cartSubtotal.textContent = `$${subtotal.toFixed(2)}`;
+        cartTax.textContent = `$${tax.toFixed(2)}`;
+        cartTotal.textContent = `$${total.toFixed(2)}`;
+    }
+
+    // Change quantity of a product
+    function changeQuantity(index, amount) {
+        cartItems[index].quantity += amount;
+
+        if (cartItems[index].quantity <= 0) {
+            cartItems[index].quantity = 1; // Prevent quantity from going below 1
+        }
+
+        updateCart(cartItems);
+        renderCartItems();
+    }
+
+    // Remove item from cart
+    function removeItemFromCart(index) {
+        cartItems.splice(index, 1); // Remove the item at the given index
+        updateCart(cartItems);
+        renderCartItems();
+        updateCartSummary(); 
+    }
+
+    // Update localStorage whenever cart changes
+    function updateCart(arr) {
+        localStorage.setItem('cartItems', JSON.stringify(arr));
+    }
+
+    // Initialize cart rendering on page load
+    renderCartItems();
+
+</script>
+<script src="/js/script.js"></script>
+
+</html>
